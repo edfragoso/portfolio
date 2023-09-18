@@ -4,7 +4,8 @@ export const SectionContent = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 50px;
+  margin: 30px 0 100px;
+  width: 100%;
   
   @media (max-width: 768px) {
     align-items: center;
@@ -66,7 +67,7 @@ export const RightBox = styled.article`
 export const StatusBox = styled.div`
   display: flex;
   align-items: center;
-  margin-top: 5px;
+  margin-top: 0;
   gap: 0.3rem;
   font-size: 16px;
   font-weight: 200;
