@@ -1,5 +1,6 @@
 "use client";
 import euBunito from "../../../public/euBunito.png";
+import { SubmitButton } from "../atoms/SubmitButton";
 import { Rectangle } from "../icons/Rectangle";
 import {
   SectionContent,
@@ -19,6 +20,7 @@ export function Section() {
           full-stack
         </h1>
         <p>"Codeando o Futuro, Lado a Lado: Desenvolvedor Full Stack"</p>
+        <SubmitButton title={"Entre em contato"}/>
       </LeftBox>
       <RightBox>
         <Image
