@@ -1,6 +1,7 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Saira } from 'next/font/google'
+import { Header } from "@/components/common/header";
+import "./globals.css";
+import type { Metadata } from "next";
+import { Saira } from "next/font/google";
 
 const saira = Saira({
   weight: ["300", "400", "500", "600"],
@@ -8,18 +9,21 @@ const saira = Saira({
 });
 
 export const metadata: Metadata = {
-  title: '<edCode/>',
-  description: 'Portifolio pessoal',
-}
+  title: "<edCode/>",
+  description: "Portifolio pessoal",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="pt-BR">
-      <body className={saira.className}>{children}</body>
+      <body className={saira.className}>
+        <Header />
+        {children}
+      </body>
     </html>
-  )
+  );
 }
