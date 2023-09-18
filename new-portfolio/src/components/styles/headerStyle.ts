@@ -7,10 +7,10 @@ interface MenuProps {
 export const HeaderContainer = styled.header`
   position: relative;
   width: 100%;
-  overflow: hidden;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  margin-bottom: 20px;
   
   @media (max-width: 760px) {
     width: auto;
@@ -23,6 +23,8 @@ export const HeaderContainer = styled.header`
 
 export const LogoContent = styled.div`
   display: flex;
+  align-items: center;
+
   
 `;
 
@@ -30,10 +32,12 @@ export const MenuStyle = styled.div<MenuProps>`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin: -25px 0 20px;
+  margin-top: -20px;
   
   @media (min-width: 768px) {
-    display: ${({ $show }) => (!$show ? "flex" : "none")};  
+    display: ${({ $show }) => (!$show ? "flex" : "none")};
+    margin-top: -20px;
+   /*  margin: -25px 0 20px;   */
   }
 `;
 
@@ -51,14 +55,23 @@ export const MenuItems = styled.div<MenuProps>`
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-top: 20px;
+  
+  
   animation: ${({ $show }) => (!$show ? slideInAnimation : "none")} 0.4s ease-in-out;
   
   @media (max-width: 760px) {
     display: ${({ $show }) => (!$show ? "flex" : "none")};
-    flex-direction: column;
+    background-color: var(--bg-primary);
+    box-shadow: 10px 5px 20px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 0 20px 20px 0;
     align-items: flex-start;
-    
+    flex-direction: column;
+    position: fixed;
+    padding: 1rem;
+    width: 200px;
+    top: 10%;
+    left: 0;
+
   }
 `;
 
