@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const BoxContent = styled.div`
+  margin-top: 150px;
   padding: 1em;
   display: flex;
   flex-direction: column;

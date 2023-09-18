@@ -4,7 +4,7 @@ export const SectionContent = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 0 100px;
+  margin-top: 50px;
   width: 100%;
   
   @media (max-width: 768px) {
