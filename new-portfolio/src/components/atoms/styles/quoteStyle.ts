@@ -28,7 +28,7 @@ export const TextBox = styled.div`
   display: flex;
   text-align: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: var(--text-color);
   font-style: italic;
