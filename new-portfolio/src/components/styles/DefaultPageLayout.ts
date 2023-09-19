@@ -4,7 +4,7 @@ export const DefaultPageLayout = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px 24px;
+  padding: 12px 14px;
   min-height: 100vh;
   background-color: var(--bg-primary);
 

@@ -5,17 +5,25 @@ import { MenuItens, NavLink } from "../styles/navBarStyle";
 export function NavBar() {
   return (
     <MenuItens>
-      <NavLink href="/">
-        <span>#</span>Principal
+      <NavLink>
+        <Link href={"/"}>
+          <span>#</span>Principal
+        </Link>
       </NavLink>
-      <NavLink href="/projects">
-        <span>#</span>Projects
+      <NavLink>
+        <Link href={"/projects"}>
+          <span>#</span>Projects
+        </Link>
       </NavLink>
-      <NavLink href="/about">
-        <span>#</span>Sobre
+      <NavLink>
+        <Link href={"/about"}>
+          <span>#</span>Sobre
+        </Link>
       </NavLink>
-      <NavLink href="/contact">
-        <span>#</span>Contato
+      <NavLink>
+        <Link href={"/contact"}>
+          <span>#</span>Contato
+        </Link>
       </NavLink>
     </MenuItens>
   );
