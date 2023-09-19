@@ -15,15 +15,18 @@ export const MenuItens = styled.nav`
   }
 `;
 
-export const NavLink = styled.a`
-  color: var(--second-color);
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  
-  &:hover {
-    color: #ffffff;    
+export const NavLink = styled.div`
+  a {
+    color: var(--second-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    
+    &:hover {
+      color: #ffffff;
+    }
   }
+
 
   @media (max-width: 768px) {
     font-size: 22px;
