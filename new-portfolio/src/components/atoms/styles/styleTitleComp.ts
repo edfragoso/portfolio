@@ -12,7 +12,7 @@ export const Marks = styled.span`
   align-items: center;
   justify-content: flex-start;
   font-size: 16px;
-  margin-right: -3px;
+  margin-right: 0;
   font-weight: 200;
   color: var(--primary-color);
 `;
