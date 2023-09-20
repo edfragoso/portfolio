@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
-import { HorizontalLine } from "../atoms/horizLine";
 import { Card } from "../atoms/card";
+import { TitleComp } from "../atoms/TitleComp";
 import {
   BoxTitle,
   Container,
@@ -10,18 +10,12 @@ import {
   SectionContent,
 } from "../styles/styleProjectSection";
 
-
-
-
 export function ProjectSection() {
-   
   return (
     <Container>
       <HeaderContent>
         <BoxTitle>
-          <span>#</span>
-          <p>projetos</p>
-          <HorizontalLine/>
+          <TitleComp title={"projetos"} markers={"#"} />
         </BoxTitle>
         <Target>
           <Link href="/projects">
@@ -30,9 +24,10 @@ export function ProjectSection() {
         </Target>
       </HeaderContent>
       <SectionContent>
-        <Card/>
-        <Card/>
-        <Card/>
+        {/* provisório */}
+        <Card />
+        <Card />
+        <Card />
       </SectionContent>
     </Container>
   );
