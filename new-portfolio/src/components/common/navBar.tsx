@@ -2,26 +2,26 @@
 import Link from "next/link";
 import { MenuItens, NavLink } from "../styles/navBarStyle";
 
-export function NavBar() {
+export function NavBar({ closeMenu }: { closeMenu: () => void }) {
   return (
     <MenuItens>
       <NavLink>
-        <Link href={"/"}>
+        <Link href={"/"} onClick={closeMenu}>
           <span>#</span>Principal
         </Link>
       </NavLink>
       <NavLink>
-        <Link href={"/projects"}>
+        <Link href={"/projects"} onClick={closeMenu}>
           <span>#</span>Projects
         </Link>
       </NavLink>
       <NavLink>
-        <Link href={"/about"}>
+        <Link href={"/about"} onClick={closeMenu}>
           <span>#</span>Sobre
         </Link>
       </NavLink>
       <NavLink>
-        <Link href={"/contact"}>
+        <Link href={"/contact"} onClick={closeMenu}>
           <span>#</span>Contato
         </Link>
       </NavLink>
