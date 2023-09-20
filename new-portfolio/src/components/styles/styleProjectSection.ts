@@ -6,10 +6,12 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 40px;
 `;
 
 export const HeaderContent = styled.div`
-width: 100%;
+  margin-bottom: 40px;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -17,6 +19,7 @@ width: 100%;
 `;
 
 export const BoxTitle = styled.div`
+  margin-top: 50px;
   display: flex;
   align-items: center;
   width: 70%;
@@ -31,6 +34,7 @@ export const BoxTitle = styled.div`
 `;
 
 export const Target = styled.div`
+  margin-top: 50px;
   a {
     color: var(--second-color);
     text-decoration: none;
