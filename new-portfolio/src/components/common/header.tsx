@@ -12,7 +12,7 @@ import {
 import { useState } from "react";
 
 export function Header() {
-  const [menuVisible, setMenuVisible] = useState<boolean>(true);
+  const [menuVisible, setMenuVisible] = useState<boolean>(false);
 
   const toggleMenu = () => {
     setMenuVisible(!menuVisible);
