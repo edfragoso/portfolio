@@ -9,6 +9,7 @@ import {
   Target,
   SectionContent,
 } from "../styles/styleProjectSection";
+import { TitleComponent } from "../atoms/title";
 
 
 
@@ -19,9 +20,7 @@ export function ProjectSection() {
     <Container>
       <HeaderContent>
         <BoxTitle>
-          <span>#</span>
-          <p>projetos</p>
-          <HorizontalLine/>
+        <TitleComponent title={"projetos"} markers={"#"}/>
         </BoxTitle>
         <Target>
           <Link href="/projects">
