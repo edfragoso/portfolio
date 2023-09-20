@@ -35,7 +35,7 @@ export const MenuStyle = styled.div<MenuProps>`
   margin-top: -20px;
   
   @media (min-width: 768px) {
-    display: ${({ $show }) => (!$show ? "flex" : "none")};
+    display: ${({ $show }) => ($show ? "flex" : "none")};
     margin-top: -20px;
    /*  margin: -25px 0 20px;   */
   }
