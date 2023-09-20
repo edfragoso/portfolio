@@ -18,16 +18,20 @@ export function Header() {
     setMenuVisible(!menuVisible);
   };
 
+  const closeMenu = () => {
+    setMenuVisible(false);
+  };
+  
   return (
     <HeaderContainer>
       <LogoContent>
         <Logo />
       </LogoContent>
       <MenuStyle $show={menuVisible} onClick={toggleMenu}>
-        {!menuVisible ? <CloseIcon /> : <MenuHamb />}
+        {menuVisible ? <CloseIcon /> : <MenuHamb />}
       </MenuStyle>
-      <MenuItems $show={menuVisible}>
-        <NavBar />
+      <MenuItems $show={!menuVisible}>
+        <NavBar closeMenu={closeMenu} />
       </MenuItems>
     </HeaderContainer>
   );
