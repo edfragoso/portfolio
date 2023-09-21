@@ -6,10 +6,14 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  @media(max-width: 768px) {
+
+  }
 `;
 
 export const HeaderContent = styled.div`
-width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -47,7 +51,10 @@ export const Target = styled.div`
 `;
 
 export const SectionContent = styled.div`
+  margin-top: 30px;
   display: flex;
   align-items: center;
+  align-self: flex-start;
+  justify-content: center;
   flex-direction: row;
 `;

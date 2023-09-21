@@ -24,8 +24,6 @@ export const HeaderContainer = styled.header`
 export const LogoContent = styled.div`
   display: flex;
   align-items: center;
-
-  
 `;
 
 export const MenuStyle = styled.div<MenuProps>`
@@ -37,7 +35,6 @@ export const MenuStyle = styled.div<MenuProps>`
   @media (min-width: 768px) {
     display: ${({ $show }) => ($show ? "flex" : "none")};
     margin-top: -20px;
-   /*  margin: -25px 0 20px;   */
   }
 `;
 

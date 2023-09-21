@@ -6,11 +6,11 @@ export const SectionContent = styled.section`
   justify-content: space-between;
   margin-top: 50px;
   width: 100%;
-  
+
   @media (max-width: 768px) {
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 `;
 
@@ -39,7 +39,7 @@ export const LeftBox = styled.article`
   @media (max-width: 768px) {
     width: 100%;
     flex-direction: column;
-    /* align-self: self-start; */
+    margin-top: 10px;
     align-items: center;
 
     h1 {
@@ -49,6 +49,10 @@ export const LeftBox = styled.article`
     p {
       justify-content: center;
       text-align: center;
+
+      @media (max-width: 768px) {
+        margin-top: 2px;
+      }
     }
   }
 `;
@@ -59,7 +63,7 @@ export const RightBox = styled.article`
   flex-direction: column;
   width: 50%;
 
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     width: 80%;
   }
 `;
