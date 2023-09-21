@@ -7,6 +7,10 @@ export const BoxContent = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
 `;
 
 export const MarksLeft = styled.span`
