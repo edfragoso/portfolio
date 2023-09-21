@@ -1,6 +1,9 @@
+"use client";
 import styled from "styled-components";
 
-interface MenuProps {}
+interface MenuProps {
+  isActive: boolean;
+}
 
 export const MenuItens = styled.nav`
   display: flex;
@@ -15,18 +18,19 @@ export const MenuItens = styled.nav`
   }
 `;
 
-export const NavLink = styled.div`
+export const NavLink = styled.div<MenuProps>`
   a {
-    color: var(--second-color);
-    text-decoration: none;
-    font-weight: 400;
     font-size: 16px;
-    
+    font-weight: 400;
+    color: ${(props) => (props.isActive ? "#fff" : "var(--second-color)")};
+    border-bottom: 2px solid
+      ${(props) => (props.isActive ? "var(--primary-color)" : "none")};
+    text-decoration: none;
+
     &:hover {
       color: #ffffff;
     }
   }
-
 
   @media (max-width: 768px) {
     font-size: 22px;
