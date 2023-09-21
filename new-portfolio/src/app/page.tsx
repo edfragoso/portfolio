@@ -4,7 +4,7 @@ import { About } from "@/components/common/aboutSection";
 import { ProjectSection } from "@/components/common/projectSection";
 import { Section } from "@/components/common/section";
 import { SkillSection } from "@/components/common/skillSection";
-import { DefaultPageLayout } from "@/components/styles/DefaultPageLayout";
+import { DefaultPageLayout } from "@/components/common/styles/DefaultPageLayout";
 
 export default function Home() {
   return (

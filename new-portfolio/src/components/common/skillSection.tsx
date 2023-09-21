@@ -7,7 +7,7 @@ import {
   LeftBox,
   RightBox,
   TitleContent,
-} from "../styles/styleSkillSection";
+} from "./styles/styleSkillSection";
 
 export function SkillSection() {
   return (

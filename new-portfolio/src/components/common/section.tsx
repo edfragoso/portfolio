@@ -7,7 +7,7 @@ import {
   LeftBox,
   RightBox,
   StatusBox,
-} from "../styles/sectionStyle";
+} from "./styles/sectionStyle";
 import Image from "next/image";
 
 export function Section() {

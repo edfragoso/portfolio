@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { SubmitButton } from "../atoms/SubmitButton";
 import { TitleComp } from "../atoms/TitleComp";
-import { BoxAbout, BoxContainer, BoxImg, BoxText } from "../styles/styleAboutSection";
+import { BoxAbout, BoxContainer, BoxImg, BoxText } from "./styles/styleAboutSection";
 import eu from '../../../public/eu.png'
 
 export function About() {

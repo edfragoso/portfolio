@@ -8,7 +8,7 @@ import {
   LogoContent,
   MenuItems,
   MenuStyle,
-} from "../styles/headerStyle";
+} from "./styles/headerStyle";
 import { useState } from "react";
 
 export function Header() {

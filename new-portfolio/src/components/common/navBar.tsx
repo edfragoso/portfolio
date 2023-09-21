@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { MenuItens, NavLink } from "../styles/navBarStyle";
+import { MenuItens, NavLink } from "./styles/navBarStyle";
 
 export function NavBar({ closeMenu }: { closeMenu: () => void }) {
   return (
