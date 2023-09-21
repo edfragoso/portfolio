@@ -1,14 +1,19 @@
 import { TitleComp } from "../atoms/TitleComp";
 import { LogoIcon } from "../icons/logo";
-import { BoxContainer, BoxSkill, Container, LeftBox, RightBox, TitleContent } from "../styles/styleSkillSection";
-
-
+import {
+  BoxContainer,
+  BoxSkill,
+  Container,
+  LeftBox,
+  RightBox,
+  TitleContent,
+} from "../styles/styleSkillSection";
 
 export function SkillSection() {
   return (
     <Container>
       <TitleContent>
-      <TitleComp title={"skills"} markers={"#"} />
+        <TitleComp title={"skills"} markers={"#"} />
       </TitleContent>
 
       <BoxContainer>
