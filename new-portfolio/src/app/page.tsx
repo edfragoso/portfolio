@@ -1,6 +1,7 @@
 "use client";
 import { Quote } from "@/components/atoms/quote";
 import { About } from "@/components/common/aboutSection";
+import { Contacts } from "@/components/common/contactsSection";
 import { ProjectSection } from "@/components/common/projectSection";
 import { Section } from "@/components/common/section";
 import { SkillSection } from "@/components/common/skillSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <ProjectSection />
       <SkillSection />
       <About />
+      <Contacts />
     </DefaultPageLayout>
   );
 }
