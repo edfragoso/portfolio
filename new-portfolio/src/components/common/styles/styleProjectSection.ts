@@ -54,7 +54,7 @@ export const SectionContent = styled.div`
   margin-top: 30px;
   display: flex;
   align-items: center;
-  align-self: flex-start;
+  
   justify-content: center;
   flex-direction: row;
 `;

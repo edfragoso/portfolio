@@ -22,7 +22,7 @@ export function About() {
           <SubmitButton title={"Leia mais"}/>
         </BoxText>
         <BoxImg>
-          <Image src={eu} alt={"eu"} width={300} height={300}/>
+          <Image src={eu} alt={"eu"} width={300} height={undefined}/>
         </BoxImg>
       </BoxContainer>
     </BoxAbout>
