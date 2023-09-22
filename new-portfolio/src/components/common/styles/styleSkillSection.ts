@@ -25,8 +25,8 @@ export const BoxContainer = styled.div`
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-around;
+
 
   @media (max-width: 768px) {
     display: flex;
