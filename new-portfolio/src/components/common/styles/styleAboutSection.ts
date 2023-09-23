@@ -14,7 +14,7 @@ export const BoxContainer = styled.div`
   flex-direction: row;
   justify-content: space-around;
   
-  @media(max-width: 768px) {
+  @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {
     flex-direction:column-reverse;
   }
 `;
@@ -36,7 +36,7 @@ export const BoxText = styled.div`
     margin: 10px;
   }
 
-  @media(max-width: 768px) {
+  @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {
     width: 100%; 
     
   }
@@ -49,7 +49,7 @@ export const BoxImg = styled.div`
   width: 30%;
   border-bottom: 1px solid var(--primary-color);
 
-  @media(max-width: 768px) {
+  @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {
     border-bottom: none;
     align-self: center;
     width: 250px;

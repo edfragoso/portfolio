@@ -7,7 +7,7 @@ export const SectionContent = styled.section`
   margin-top: 50px;
   width: 100%;
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     align-items: center;
     flex-direction: column;
     margin-top: 5px;
@@ -36,7 +36,7 @@ export const LeftBox = styled.article`
     margin-bottom: 20px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     width: 100%;
     flex-direction: column;
     margin-top: 10px;
@@ -50,7 +50,7 @@ export const LeftBox = styled.article`
       justify-content: center;
       text-align: center;
 
-      @media (max-width: 768px) {
+      @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
         margin-top: 2px;
       }
     }
@@ -63,7 +63,7 @@ export const RightBox = styled.article`
   flex-direction: column;
   width: 50%;
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     width: 80%;
   }
 `;
@@ -88,7 +88,7 @@ export const StatusBox = styled.div`
     font-size: 14px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     display: flex;
     align-items: center;
     width: 100%;
