@@ -26,7 +26,7 @@ export function Contacts() {
         <BoxLinks>
           <DiscordContact personId={"fragoso6125"}/>
           <EmailContact />
-          <LinkedInContact profileName={"linkedin.com/in/ednilsonfragoso"}/>
+          <LinkedInContact profileName={"/in/ednilsonfragoso"}/>
           <WhatsappLink title={"Envie uma mensagem agora"}/>
         </BoxLinks>
       </BoxContainer>
