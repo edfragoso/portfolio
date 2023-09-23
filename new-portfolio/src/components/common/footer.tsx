@@ -3,7 +3,7 @@ import { DiscordContact } from "../atoms/discordContact";
 import { GithubContact } from "../atoms/githubContact";
 import { LinkedInContact } from "../atoms/linkedInContact";
 import { Logo } from "../icons/logoEdCode";
-import { Content, BoxLeft, BoxRight, FooterContent } from "./styles/styleFooter";
+import { Content, BoxLeft, BoxRight, FooterContent } from "./styles/footerStyle";
 
 export function Footer() {
   return (
