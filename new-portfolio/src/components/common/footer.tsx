@@ -22,7 +22,7 @@ export function Footer() {
           </div>
         </BoxRight>
       </FooterContent>
-      <p>&copy; 2023 {"<edCode/>"} Todos direitos reservados</p>
+      <p>@ 2023 {"<edCode/>"} Todos direitos reservados</p>
     </Content>
   );
 }
