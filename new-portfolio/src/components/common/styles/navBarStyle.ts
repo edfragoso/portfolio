@@ -20,7 +20,7 @@ export const MenuItens = styled.nav`
 
 export const NavLink = styled.div<MenuProps>`
   a {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: ${(props) => (props.isActive ? "#fff" : "var(--second-color)")};
     border-bottom: 2px solid
@@ -32,12 +32,12 @@ export const NavLink = styled.div<MenuProps>`
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     font-size: 22px;
   }
 
   span {
     color: #c778dd;
-    margin: 0.3rem;
+    margin: 0.1rem;
   }
 `;

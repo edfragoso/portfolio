@@ -8,7 +8,7 @@ export const BoxContent = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     margin-top: 20px;
   }
 `;
@@ -19,7 +19,7 @@ export const MarksLeft = styled.span`
   top: -25px;
   left: 4px;
 
-  @media (max-width: 760px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     top: -40px;
     left: 4px;
   }
@@ -37,8 +37,9 @@ export const TextBox = styled.div`
   color: var(--text-color);
   font-style: italic;
 
-  @media (max-width: 760px) {
-    font-size: 14px;
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+    font-size: 12px;
+    font-weight: 100;
   }
 `;
 
@@ -48,7 +49,7 @@ export const MarksRight = styled.span`
   top: 30px;
   right: 5px;
 
-  @media (max-width: 760px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     top: 50px;
     right: 3px;
   }
@@ -62,8 +63,11 @@ export const BoxAuthor = styled.div`
   padding: 0 8px;
   right: -240px;
   top: 0px;
+  font-size: 14px;
+  font-weight: 400;
 
-  @media (max-width: 760px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     right: -50px;
+    font-size: 12px;
   }
 `;

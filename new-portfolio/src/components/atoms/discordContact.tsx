@@ -1,21 +1,26 @@
+"use client"
 import React from "react";
 import { ContactsList } from "./styles/styleContactsLinks";
 import { DiscordIcon } from "../icons/discordIcon";
 
-const DiscordContact = () => {
-  const personId = "fragoso6125";
-  const link = "https://discord.com";
+interface DiscordContactProps {
+  personId?: string;
+}
+
+export function DiscordContact({personId}: DiscordContactProps) {
+ 
+  const link = "https://discord.com"; 
 
   return (
     <ContactsList>
-      <a href={link}>
+      <a href={link} target="_blank">
         <i>
-          <DiscordIcon/>
-          {personId}
+          <DiscordIcon />
+          <p>{personId}</p>
+          
         </i>
       </a>
     </ContactsList>
   );
 };
 
-export default DiscordContact;

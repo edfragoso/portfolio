@@ -1,3 +1,4 @@
+"use client"
 import { TitleComp } from "../atoms/TitleComp";
 import { LogoIcon } from "../icons/logo";
 import {
@@ -7,7 +8,7 @@ import {
   LeftBox,
   RightBox,
   TitleContent,
-} from "./styles/styleSkillSection";
+} from "./styles/skillSectionStyle";
 
 export function SkillSection() {
   return (

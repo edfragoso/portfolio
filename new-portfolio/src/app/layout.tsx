@@ -1,16 +1,17 @@
 import { Header } from "@/components/common/header";
 import "./globals.css";
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import { Saira } from "next/font/google";
+import { DefaultProviders } from "@/components/defaultProviders";
 
 const saira = Saira({
-  weight: ["300", "400", "500", "600"],
+  weight: ["100", "200", "300", "400", "500", "600"],
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "<edCode/>",
-  description: "Portifolio pessoal",
+  description: "Personal Portfolio",
 };
 
 export default function RootLayout({
@@ -21,8 +22,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body className={saira.className}>
-        <Header />
-        {children}
+        <DefaultProviders>
+          <Header />
+          {children}
+        </DefaultProviders>
       </body>
     </html>
   );

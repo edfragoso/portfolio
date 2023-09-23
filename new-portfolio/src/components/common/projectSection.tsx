@@ -8,7 +8,7 @@ import {
   HeaderContent,
   Target,
   SectionContent,
-} from "./styles/styleProjectSection";
+} from "./styles/projectSectionStyle";
 
 export function ProjectSection() {
   return (

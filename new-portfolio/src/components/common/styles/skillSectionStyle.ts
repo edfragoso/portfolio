@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 100%;
   margin-top: 50px;
   
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     margin-top: 30px;
   }
 `;
@@ -28,9 +28,10 @@ export const BoxContainer = styled.div`
   justify-content: space-around;
 
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     display: flex;
     flex-direction: column;
+    
   }
 `;
 
@@ -40,13 +41,12 @@ export const LeftBox = styled.div`
   flex-direction: row-reverse;
   justify-content: center;
   padding: 1rem;
-  margin: 10px 10px;
-
+ 
   h3 {
     text-align: center;
     font-weight: 600;
     color: var(--text-color);
-    margin: 10px;
+ 
   }
   
 `;
@@ -73,7 +73,7 @@ export const RightBox = styled.div`
     font-weight: 100;
   }
 
-  @media(max-width: 768px) {
+  @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {
     justify-content: center;
     width: 100%;
   }
@@ -89,7 +89,7 @@ export const BoxSkill = styled.div`
   margin: 5px;
   padding: 0.2rem;
 
-  @media(max-width: 768px) {
+  @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {
     
   }
 `;

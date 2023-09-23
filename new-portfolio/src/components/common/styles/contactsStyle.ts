@@ -7,6 +7,7 @@ export const BoxContacts = styled.div`
   flex-direction: column;
   margin-top: 50px;
   justify-content: space-around;
+  margin-bottom: 50px;
 `;
 
 export const BoxContainer = styled.div`
@@ -15,7 +16,7 @@ export const BoxContainer = styled.div`
   justify-content: space-around;
   flex-direction: row;
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     flex-direction: column;
   }
 `;
@@ -26,7 +27,7 @@ export const BoxText = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 50%;
-  padding: 1rem;
+  
   color: var(--second-color);
 
   p {
@@ -36,14 +37,14 @@ export const BoxText = styled.div`
     margin: 10px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     width: 100%;
   }
 `;
 
 export const BoxLinks = styled.div`
   border: solid 1px var(--second-color);
-  padding: 8px;
+  padding: 1rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;

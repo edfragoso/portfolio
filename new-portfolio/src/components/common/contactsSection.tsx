@@ -1,12 +1,10 @@
+"use client"
 import { TitleComp } from "../atoms/TitleComp";
-import DiscordContact from "../atoms/discordContact";
+import {DiscordContact} from "../atoms/discordContact";
 import EmailContact from "../atoms/emailContact";
-import GithubContact from "../atoms/githubContact";
-import LinkedInContact from "../atoms/linkedInContact";
-import { DiscordIcon } from "../icons/discordIcon";
-import { EmailIcon } from "../icons/emailIcon";
-import { GithubIcon } from "../icons/githubIcon";
-import { LinkdinIcon } from "../icons/linkedinIcon";
+import {LinkedInContact} from "../atoms/linkedInContact";
+import WhatsappLink from "../atoms/wattsApp";
+
 import {
   BoxContacts,
   BoxContainer,
@@ -26,10 +24,10 @@ export function Contacts() {
           </p>
         </BoxText>
         <BoxLinks>
-          <DiscordContact />
+          <DiscordContact personId={"fragoso6125"}/>
           <EmailContact />
-          <LinkedInContact />
-          <GithubContact/>
+          <LinkedInContact profileName={"/in/ednilsonfragoso"}/>
+          <WhatsappLink title={"Envie uma mensagem agora"}/>
         </BoxLinks>
       </BoxContainer>
     </BoxContacts>

@@ -1,20 +1,23 @@
+"use client";
 import React from "react";
 import { ContactsList } from "./styles/styleContactsLinks";
 import { LinkdinIcon } from "../icons/linkedinIcon";
 
-const LinkedInContact = () => {
-  const personLinkedin = "www.linkedin.com/in/ednilsonfragoso";
-  const profileName = "linkedin.com/in/ednilsonfragoso"
+interface LinkedInContactProps {
+  profileName?: string;
+}
+
+export function LinkedInContact({ profileName }: LinkedInContactProps) {
+  const personLinkedin = "https://linkedin.com/in/ednilsonfragoso";
+
   return (
     <ContactsList>
-      <a href={personLinkedin}>
+      <a href={personLinkedin} target="_blank">
         <i>
-          <LinkdinIcon/>
-          {profileName}
+          <LinkdinIcon />
+          <p>{profileName}</p>
         </i>
       </a>
     </ContactsList>
   );
-};
-
-export default LinkedInContact;
+}
