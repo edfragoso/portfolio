@@ -16,7 +16,8 @@ export function DiscordContact({personId}: DiscordContactProps) {
       <a href={link} target="_blank">
         <i>
           <DiscordIcon />
-          {personId}
+          <p>{personId}</p>
+          
         </i>
       </a>
     </ContactsList>

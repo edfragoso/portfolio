@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { EmailIcon } from "../icons/emailIcon";
 import { ContactsList } from "./styles/styleContactsLinks";
@@ -12,7 +12,7 @@ const EmailContact = () => {
       <a href={emailLink} target="_blank">
         <i>
           <EmailIcon />
-          {personEmail}
+          <p>{personEmail}</p>
         </i>
       </a>
     </ContactsList>
