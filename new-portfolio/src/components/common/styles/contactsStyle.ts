@@ -44,7 +44,7 @@ export const BoxText = styled.div`
 
 export const BoxLinks = styled.div`
   border: solid 1px var(--second-color);
-  padding: 8px;
+  padding: 1rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;

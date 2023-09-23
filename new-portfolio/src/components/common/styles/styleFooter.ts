@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Content = styled.footer` 
+export const Content = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,11 +10,10 @@ export const Content = styled.footer`
   margin-top: 50px;
   color: var(--second-color);
 
-  p{
+  p {
     font-size: 11px;
     font-weight: 100;
   }
-
 `;
 
 export const FooterContent = styled.div`
@@ -32,8 +31,8 @@ export const BoxLeft = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
-  p{
+
+  p {
     margin-top: 30px;
     font-size: 14px;
     font-weight: 300;
@@ -44,6 +43,7 @@ export const BoxRight = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 
   h3 {
     color: var(--text-color);
@@ -52,11 +52,8 @@ export const BoxRight = styled.div`
   }
   div {
     display: flex;
+    align-items: center;
     flex-direction: row;
-
-    a:hover{
-      border-bottom: solid 0.3px var(--primary-color);
-      
-    }
+    padding: 0;
   }
 `;
