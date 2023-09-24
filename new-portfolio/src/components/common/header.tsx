@@ -1,3 +1,4 @@
+'use client'
 import { Logo } from "../icons/logoEdCode";
 import { MenuHamb } from "../icons/menuHamb";
 import { CloseIcon } from "../icons/closeIcon";
