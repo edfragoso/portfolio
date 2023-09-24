@@ -1,3 +1,4 @@
+'use client'
 import { DiscordContact } from "../atoms/discordContact";
 import { GithubContact } from "../atoms/githubContact";
 import { LinkedInContact } from "../atoms/linkedInContact";
