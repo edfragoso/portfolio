@@ -2,7 +2,7 @@
 import { SubmitButton } from "@/components/atoms/SubmitButton";
 import styled from "styled-components";
 
-const Temp = styled.main`
+const Temp = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
