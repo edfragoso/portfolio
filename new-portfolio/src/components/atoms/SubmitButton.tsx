@@ -1,16 +1,22 @@
+"use client";
 import React from "react";
 import { SubButtom } from "./styles/styleSubmitButton";
-
-
-type SubmitButton = {
-  title: string;
-};
+import { useRouter } from "next/navigation";
 
 export interface SubmitButtonProps {
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
   title: string;
+  navigate: string;
 }
 
-export const SubmitButton = ({ title, onClick }: SubmitButtonProps) => {
-  return <SubButtom type="submit" onClick={onClick}>{title}</SubButtom>;
+export const SubmitButton = ({ title, onClick, navigate }: SubmitButtonProps) => {
+  const router = useRouter();
+  const handleNavigate = () => {
+    router.push(navigate);
+  };
+  return (
+    <SubButtom type="submit" onClick={handleNavigate}>
+      {title}
+    </SubButtom>
+  );
 };
