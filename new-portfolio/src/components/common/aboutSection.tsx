@@ -19,7 +19,7 @@ export function About() {
             marcas online e enfrentar desafios. Vamos tornar suas ideias
             realidade no mundo digital!
           </p>
-          <SubmitButton title={"Leia mais"}/>
+          <SubmitButton title={"Leia mais"} navigate={"/about"}/>
         </BoxText>
         <BoxImg>
           <Image src={eu} alt={"eu"} width={300} height={undefined}/>
