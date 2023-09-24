@@ -1,4 +1,3 @@
-"use client"
 import { Header } from "@/components/common/header";
 import "./globals.css";
 import { Metadata } from "next";
