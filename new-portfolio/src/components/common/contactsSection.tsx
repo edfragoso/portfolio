@@ -1,4 +1,3 @@
-'use client'
 import { TitleComp } from "../atoms/TitleComp";
 import {DiscordContact} from "../atoms/discordContact";
 import EmailContact from "../atoms/emailContact";
