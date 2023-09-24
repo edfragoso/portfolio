@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import { Quote } from "@/components/atoms/quote";
 import { About } from "@/components/common/aboutSection";
 import { Contacts } from "@/components/common/contactsSection";

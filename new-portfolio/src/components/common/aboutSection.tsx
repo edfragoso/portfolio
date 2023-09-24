@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import Image from "next/image";
 import { SubmitButton } from "../atoms/SubmitButton";
 import { TitleComp } from "../atoms/TitleComp";

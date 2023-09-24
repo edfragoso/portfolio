@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import { Metadata } from "next";
 import { ReactNode } from "react";
 import { QueryClient, QueryClientProvider } from "react-query";

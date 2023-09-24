@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import { WhatsAppIcon } from "../icons/whatsappIcon";
 import { ContactsList } from "./styles/styleContactsLinks";
 

@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import { Marks } from "../icons/marks";
 import {
   BoxAuthor,

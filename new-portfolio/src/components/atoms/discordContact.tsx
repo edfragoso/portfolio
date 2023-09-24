@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import React from "react";
 import { ContactsList } from "./styles/styleContactsLinks";
 import { DiscordIcon } from "../icons/discordIcon";

@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import euBunito from "../../../public/euBunito.png";
 import { SubmitButton } from "../atoms/SubmitButton";
 import { Rectangle } from "../icons/Rectangle";

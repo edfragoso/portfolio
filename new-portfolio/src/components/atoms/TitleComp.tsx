@@ -1,3 +1,4 @@
+'use client'
 import { HorizontalLine } from "./horizLine";
 import { BoxContent, Marks, Title } from "./styles/styleTitleComp";
 
