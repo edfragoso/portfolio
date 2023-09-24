@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    ssr: {
+        styleSheets: {
+          async: true,
+        },
+      },
+}
 
 module.exports = nextConfig
