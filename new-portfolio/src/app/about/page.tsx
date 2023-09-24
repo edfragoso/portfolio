@@ -1,5 +1,6 @@
 'use client'
 
+import { SubmitButton } from "@/components/atoms/SubmitButton";
 import styled from "styled-components";
 
 const Temp = styled.main`
@@ -17,6 +18,7 @@ export default function Project() {
     <Temp>
       <h1>🎯 - Pagina Sobre</h1>
       <h3>🚧 - Em obras - 🚧</h3>
+      <SubmitButton title={"voltar"} navigate={"/"}/>
     </Temp>
     </>
   );
