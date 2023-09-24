@@ -1,4 +1,3 @@
-'use client'
 import { LineHorz } from "./styles/styleHorizLine";
 
 

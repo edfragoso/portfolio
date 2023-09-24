@@ -1,4 +1,3 @@
-'use client'
 import React from "react";
 import { ContactsList } from "./styles/styleContactsLinks";
 import { LinkdinIcon } from "../icons/linkedinIcon";

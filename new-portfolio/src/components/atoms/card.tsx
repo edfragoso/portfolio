@@ -1,5 +1,3 @@
-'use client'
-
 import { SubmitButton } from "./SubmitButton";
 import { DescriptionBox, ImgBox, SectionContent, TitleBox } from "./styles/styleCard";
 
