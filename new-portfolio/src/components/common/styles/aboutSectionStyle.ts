@@ -30,15 +30,15 @@ export const BoxText = styled.div`
   color: var(--second-color);
   
   p{
-    font-size: 14px;
-    font-weight: 100;
+    font-size: 18px;
+    font-weight: 300;
     text-align: justify;
-    margin: 10px;
+    margin: 10px
   }
 
   @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {
     width: 100%; 
-    
+    font-size: 20px;
   }
 `;
 

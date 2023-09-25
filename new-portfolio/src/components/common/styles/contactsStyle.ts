@@ -7,7 +7,7 @@ export const BoxContacts = styled.section`
   flex-direction: column;
   margin-top: 50px;
   justify-content: space-around;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 `;
 
 export const BoxContainer = styled.article`
@@ -15,7 +15,7 @@ export const BoxContainer = styled.article`
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  
+
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     flex-direction: column;
   }
@@ -26,19 +26,19 @@ export const BoxText = styled.div`
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
-  
+  width: 40%;
+
   color: var(--second-color);
 
   p {
-    font-size: 14px;
-    font-weight: 100;
+    font-size: 18px;
+    font-weight: 400;
     text-align: justify;
-    margin: 10px;
   }
 
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     width: 100%;
+    margin-top: 3rem;
   }
 `;
 
@@ -49,5 +49,5 @@ export const BoxLinks = styled.div`
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 5rem;
 `;
