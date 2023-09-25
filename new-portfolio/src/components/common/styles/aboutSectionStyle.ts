@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const BoxAbout = styled.div`
+export const BoxAbout = styled.section`
   width: 100%;
   display: flex;
   align-items: center;
@@ -8,7 +8,7 @@ export const BoxAbout = styled.div`
   margin-top: 50px;
 `;
 
-export const BoxContainer = styled.div`
+export const BoxContainer = styled.article`
   display: flex;
   align-items: center;
   flex-direction: row;
