@@ -33,7 +33,7 @@ export const BoxContainer = styled.article`
   }
 `;
 
-export const LeftBox = styled.article`
+export const LeftBox = styled.div`
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -49,7 +49,7 @@ export const LeftBox = styled.article`
   
 `;
 
-export const RightBox = styled.article`
+export const RightBox = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
