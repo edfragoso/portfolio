@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { TitleComp } from "../atoms/TitleComp";
 import { LogoIcon } from "../icons/logo";
 import {
@@ -7,16 +7,12 @@ import {
   Container,
   LeftBox,
   RightBox,
-  TitleContent,
 } from "./styles/skillSectionStyle";
 
 export function SkillSection() {
   return (
     <Container>
-      <TitleContent>
-        <TitleComp title={"skills"} markers={"#"} />
-      </TitleContent>
-
+      <TitleComp title={"skills"} markers={"#"} />
       <BoxContainer>
         <LeftBox>
           <LogoIcon />
