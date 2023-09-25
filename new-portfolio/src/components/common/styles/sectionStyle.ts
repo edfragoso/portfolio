@@ -18,15 +18,19 @@ export const LeftBox = styled.article`
   display: flex;
   flex-direction: column;
   width: 50%;
+  
 
   h1 {
     font-size: 30px;
     color: var(--text-color);
     margin-bottom: 3rem;
+    text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.5);
   }
   span {
     margin: 0.5rem;
     color: var(--primary-color);
+    text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.5);
+   
   }
   p {
     text-align: center;
