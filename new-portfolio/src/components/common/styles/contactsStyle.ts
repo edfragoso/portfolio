@@ -10,12 +10,12 @@ export const BoxContacts = styled.section`
   margin-bottom: 50px;
 `;
 
-export const BoxContainer = styled.div`
+export const BoxContainer = styled.article`
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-
+  
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     flex-direction: column;
   }
