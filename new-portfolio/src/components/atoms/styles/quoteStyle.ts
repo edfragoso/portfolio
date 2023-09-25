@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const BoxContent = styled.div`
+export const BoxContent = styled.section`
   margin-top: 150px;
   padding: 1em;
   display: flex;
