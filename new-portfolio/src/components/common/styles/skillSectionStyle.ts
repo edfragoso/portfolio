@@ -21,13 +21,11 @@ export const TitleContent = styled.div`
   margin-bottom: 20px;
 `;
 
-export const BoxContainer = styled.div`
+export const BoxContainer = styled.article`
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-around;
-
-
+ 
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     display: flex;
     flex-direction: column;
@@ -35,7 +33,7 @@ export const BoxContainer = styled.div`
   }
 `;
 
-export const LeftBox = styled.div`
+export const LeftBox = styled.article`
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -51,7 +49,7 @@ export const LeftBox = styled.div`
   
 `;
 
-export const RightBox = styled.div`
+export const RightBox = styled.article`
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
