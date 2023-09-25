@@ -50,7 +50,7 @@ export const MarksRight = styled.span`
   right: 5px;
 
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
-    top: 50px;
+    top: 45px;
     right: 3px;
   }
 `;
