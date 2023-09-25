@@ -7,7 +7,7 @@ export const Container = styled.section`
   flex-wrap: wrap;
   width: 100%;
   margin-top: 50px;
-  
+
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     margin-top: 30px;
   }
@@ -22,14 +22,15 @@ export const TitleContent = styled.div`
 `;
 
 export const BoxContainer = styled.article`
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: row;
- 
+  justify-content: space-between;
+
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     display: flex;
     flex-direction: column;
-    
   }
 `;
 
@@ -39,14 +40,12 @@ export const LeftBox = styled.div`
   flex-direction: row-reverse;
   justify-content: center;
   padding: 1rem;
- 
+
   h3 {
     text-align: center;
     font-weight: 600;
     color: var(--text-color);
- 
   }
-  
 `;
 
 export const RightBox = styled.div`
@@ -55,7 +54,7 @@ export const RightBox = styled.div`
   align-items: flex-start;
   width: 60%;
   margin: 10px 10px;
-  
+
   h4 {
     text-align: center;
     color: var(--text-color);
@@ -71,7 +70,7 @@ export const RightBox = styled.div`
     font-weight: 100;
   }
 
-  @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     justify-content: center;
     width: 100%;
   }
@@ -87,7 +86,6 @@ export const BoxSkill = styled.div`
   margin: 5px;
   padding: 0.2rem;
 
-  @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {
-    
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
   }
 `;
