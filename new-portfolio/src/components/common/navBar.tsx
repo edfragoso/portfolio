@@ -1,3 +1,4 @@
+'use client'
 import Link from "next/link";
 import { MenuItens, NavLink } from "./styles/navBarStyle";
 import { useState } from "react";
