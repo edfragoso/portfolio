@@ -25,9 +25,12 @@ export const NavLink = styled.div<MenuProps>`
     border-bottom: 2px solid
       ${(props) => (props.isActive ? "var(--primary-color)" : "none")};
     text-decoration: none;
-
+    text-shadow: ${(props) => (!props.isActive ? "2px 8px 8px rgba(0, 0, 0, 0.9)" : "none")};
+    
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) */;
     &:hover {
       color: #ffffff;
+      text-shadow: none;
     }
   }
 

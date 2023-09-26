@@ -3,15 +3,14 @@ import styled from "styled-components";
 export const Container = styled.section`
   display: flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: row; 
   flex-wrap: wrap;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 5rem;
   justify-content: space-around;
 
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
-    margin-top: 30px;
-    flex-direction: column;
+    margin-top: 3rem;
   }
 `;
 
@@ -23,10 +22,12 @@ export const LeftBox = styled.article`
   padding: 1rem;
 
   h3 {
+    font-size: 24px;
     text-align: center;
     font-weight: 600;
     color: var(--text-color);
-    margin-right: 20px;
+    margin-right: 2rem;
+    text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.5);
   }
 `;
 
@@ -35,7 +36,7 @@ export const RightBox = styled.article`
   flex-wrap: wrap;
   align-items: flex-start;
   width: 50%;
-  margin: 10px 10px;
+  margin: 2rem;
 
   h4 {
     text-align: center;
@@ -61,13 +62,15 @@ export const RightBox = styled.article`
 export const BoxSkill = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 0 10px 140px;
+  flex: 0 10px 40px;
   border: solid 0.5px var(--second-color);
   color: var(--second-color);
   text-align: start;
-  margin: 5px;
+  margin: 0.3rem;
   padding: 0.2rem;
 
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+    flex: 0 10px 140px;
+    margin: 0.5rem;
   }
 `;

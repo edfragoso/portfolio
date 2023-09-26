@@ -5,9 +5,9 @@ export const BoxContacts = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 5rem;
   justify-content: space-around;
-  margin-bottom: 5rem;
+ 
 `;
 
 export const BoxContainer = styled.article`

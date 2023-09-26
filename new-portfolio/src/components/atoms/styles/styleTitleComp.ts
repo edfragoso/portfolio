@@ -25,4 +25,5 @@ export const Title = styled.h3`
   font-weight: 400;
   color: var(--text-color);
   margin-right: 5px;
+  text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.8)
 `;

@@ -5,7 +5,7 @@ export const BoxAbout = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 5rem;
 `;
 
 export const BoxContainer = styled.article`
@@ -26,14 +26,14 @@ export const BoxText = styled.div`
   flex-direction: column;
   width: 50%;
   padding: 1rem;
-  margin-top: 20px;
+  margin-top: 5rem;
   color: var(--second-color);
   
   p{
     font-size: 18px;
     font-weight: 300;
     text-align: justify;
-    margin: 10px
+    margin-bottom: 2rem;
   }
 
   @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {

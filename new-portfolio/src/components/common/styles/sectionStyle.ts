@@ -4,13 +4,13 @@ export const SectionContent = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 5rem;
   width: 100%;
 
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     align-items: center;
     flex-direction: column;
-    margin-top: 5px;
+    margin-top: 3rem;
   }
 `;
 

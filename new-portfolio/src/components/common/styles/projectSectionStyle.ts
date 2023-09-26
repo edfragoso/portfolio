@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin-top: 30px;
+  margin-top: 5rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -50,7 +50,7 @@ export const Target = styled.div`
 `;
 
 export const SectionContent = styled.div`
-  margin-top: 30px;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;

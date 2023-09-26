@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SubButtom = styled.button`
-margin-top: 20px;
+  margin-top: 1rem;
   width: 10rem;
   border: 1px solid #c778dd;
   color: #fff;

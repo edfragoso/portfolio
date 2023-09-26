@@ -10,10 +10,8 @@ export const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  margin-bottom: 20px;
   
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
-    width: auto;
     display: flex;
     padding: 1rem;
     justify-content: space-between;

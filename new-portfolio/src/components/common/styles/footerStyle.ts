@@ -6,8 +6,7 @@ export const Content = styled.footer`
   align-items: center;
   width: 100%;
   border-top: 1px solid var(--second-color);
-  margin-bottom: 30px;
-  margin-top: 50px;
+  margin-top: 5rem;
   color: var(--second-color);
 
   p {

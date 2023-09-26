@@ -9,8 +9,8 @@ export const DefaultPageLayout = styled.main`
 
   background-color: var(--bg-primary);
 
-  @media (min-width: ${(props) => props.theme.desktopBreakpoint}) {
-    padding: 24px 30px;
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+    padding: 14px 10px;
   }
  
 `;

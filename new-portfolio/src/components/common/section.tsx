@@ -19,7 +19,7 @@ export function Section() {
           <br />
           full-stack
         </h1>
-        <p>Codeando o Futuro, Lado a Lado: Desenvolvedor Full Stack</p>
+        <p>Codeando o Futuro, Lado a Lado: Desenvolvedor Full Stack.</p>
         <SubmitButton title={"Entre em contato"} navigate={"/contact"} />
       </LeftBox>
       <RightBox>
