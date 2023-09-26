@@ -19,7 +19,7 @@ export const BoxContainer = styled.article`
   }
 `;
 
-export const BoxText = styled.div`
+export const BoxText = styled.article`
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -42,7 +42,7 @@ export const BoxText = styled.div`
   }
 `;
 
-export const BoxImg = styled.div`
+export const BoxImg = styled.article`
   display: flex;
   align-items: center;
   justify-content: center;

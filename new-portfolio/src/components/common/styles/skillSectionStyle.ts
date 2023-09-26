@@ -59,7 +59,7 @@ export const RightBox = styled.article`
   }
 `;
 
-export const BoxSkill = styled.div`
+export const BoxSkill = styled.article`
   display: flex;
   flex-direction: column;
   flex: 0 10px 40px;
