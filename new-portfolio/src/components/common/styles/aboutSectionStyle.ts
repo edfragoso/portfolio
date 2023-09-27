@@ -5,6 +5,7 @@ export const BoxAbout = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-around;
   margin-top: 3rem;
 `;
 
@@ -19,7 +20,7 @@ export const BoxContainer = styled.article`
   }
 `;
 
-export const BoxText = styled.article`
+export const BoxText = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -47,7 +48,7 @@ export const BoxText = styled.article`
   }
 `;
 
-export const BoxImg = styled.article`
+export const BoxImg = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,8 +58,8 @@ export const BoxImg = styled.article`
   @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {
     border-bottom: none;
     align-self: center;
-    width: 200px;
-    height: 200px;
+   /*  width: 200px;
+    height: 200px; */
     margin-top: 5rem;
     
   }
