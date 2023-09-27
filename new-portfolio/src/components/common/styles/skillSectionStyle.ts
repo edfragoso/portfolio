@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   display: flex;
   align-items: center;
-  flex-direction: row; 
+  flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   margin-top: 5rem;
@@ -29,19 +29,27 @@ export const LeftBox = styled.article`
     margin-right: 2rem;
     text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.5);
   }
+  p {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0.2rem;
+    border: 1px solid var(--second-color);
+    margin: 0.3rem;
+    color: var(--second-color);
+  }
 `;
 
 export const RightBox = styled.article`
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  width: 50%;
+  width: 60%;
   margin: 2rem;
 
   h4 {
     text-align: center;
     color: var(--text-color);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     padding: 0.2rem;
     border-bottom: 1px solid var(--second-color);
@@ -49,8 +57,11 @@ export const RightBox = styled.article`
   }
   p {
     padding: 0.1rem;
-    font-size: 12px;
-    font-weight: 100;
+    font-size: 16px;
+    font-weight: 300;
+    @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+      font-size: 18px;
+    }
   }
 
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
@@ -62,15 +73,36 @@ export const RightBox = styled.article`
 export const BoxSkill = styled.article`
   display: flex;
   flex-direction: column;
-  flex: 0 10px 40px;
   border: solid 0.5px var(--second-color);
   color: var(--second-color);
   text-align: start;
   margin: 0.3rem;
   padding: 0.2rem;
+  flex-grow: 1;
+  
 
   @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
     flex: 0 10px 140px;
     margin: 0.5rem;
+  }
+`;
+
+export const MyFunFacts = styled.article`
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+
+  
+  p{
+    color: var(--second-color);
+    font-weight: 300;
+    border: solid 1px var(--second-color);
+    margin: 3px;
+    padding: 0.3rem;
+  }
+
+  @media (max-width: ${(props) => props.theme.desktopBreakpoint}){
+    flex-grow: 1;
+    
   }
 `;
