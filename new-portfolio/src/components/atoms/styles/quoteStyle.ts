@@ -53,7 +53,7 @@ export const MarksRight = styled.span`
   right: 5px;
 
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     top: 45px;
     right: 3px;
   }
@@ -72,7 +72,7 @@ export const BoxAuthor = styled.div`
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     right: -50px;
     font-size: 12px;
   }
