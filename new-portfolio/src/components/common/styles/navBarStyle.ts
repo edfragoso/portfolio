@@ -34,7 +34,7 @@ export const NavLink = styled.div<MenuProps>`
     }
   }
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     font-size: 22px;
   }
 

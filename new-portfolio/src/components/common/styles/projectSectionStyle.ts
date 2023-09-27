@@ -7,7 +7,7 @@ export const Container = styled.section`
   align-items: center;
   flex-direction: column;
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
   }
 `;
 

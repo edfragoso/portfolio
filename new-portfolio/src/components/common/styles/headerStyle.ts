@@ -11,7 +11,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   flex-direction: row;
   
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
@@ -30,7 +30,7 @@ export const MenuStyle = styled.div<MenuProps>`
   align-items: center;
   margin-top: -20px;
   
-  @media (min-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (min-width: ${(props) => props.theme.tableBreakpoint}) {
     display: ${({ $show }) => ($show ? "flex" : "none")};
     margin-top: -20px;
   }
@@ -54,7 +54,7 @@ export const MenuItems = styled.div<MenuProps>`
   
   animation: ${({ $show }) => (!$show ? slideInAnimation : "none")} 0.4s ease-in-out;
   
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     display: ${({ $show }) => (!$show ? "flex" : "none")};
     background-color: var(--bg-primary);
     box-shadow: 10px 5px 20px 5px rgba(0, 0, 0, 0.3);

@@ -9,7 +9,7 @@ export const DefaultPageLayout = styled.main`
 
   background-color: var(--bg-primary);
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     padding: 14px 10px;
   }
  

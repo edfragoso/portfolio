@@ -9,7 +9,7 @@ export const Container = styled.section`
   margin-top: 5rem;
   justify-content: space-around;
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     margin-top: 3rem;
   }
 `;
@@ -59,12 +59,12 @@ export const RightBox = styled.article`
     padding: 0.1rem;
     font-size: 16px;
     font-weight: 300;
-    @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+    @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
       font-size: 18px;
     }
   }
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     justify-content: center;
     width: 100%;
   }
@@ -81,7 +81,7 @@ export const BoxSkill = styled.article`
   flex-grow: 1;
   
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex: 0 10px 140px;
     margin: 0.5rem;
   }
@@ -101,7 +101,7 @@ export const MyFunFacts = styled.article`
     padding: 0.3rem;
   }
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}){
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}){
     flex-grow: 1;
     
   }
