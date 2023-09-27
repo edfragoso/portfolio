@@ -5,7 +5,6 @@ export const BoxAbout = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-around;
   margin-top: 3rem;
 `;
 
@@ -17,6 +16,7 @@ export const BoxContainer = styled.article`
 
   @media(max-width: ${(props) => props.theme.desktopBreakpoint}) {
     flex-direction:column-reverse;
+    justify-content: center;
   }
 `;
 
