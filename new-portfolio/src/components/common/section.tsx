@@ -28,7 +28,7 @@ export function Section() {
           src={euBunito}
           alt={"imageDev"}
           width={340}
-          height={undefined}
+          height={240}
         />
 
         <StatusBox>

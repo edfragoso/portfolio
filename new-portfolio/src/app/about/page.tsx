@@ -56,8 +56,8 @@ export default function About() {
               priority
               src={otherEu}
               alt={"eu"}
-              width={250}
-              height={undefined}
+              width={280}
+              height={300}
             />
           </BoxImg>
         </BoxContainer>

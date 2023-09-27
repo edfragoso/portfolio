@@ -28,7 +28,7 @@ export function About() {
           <SubmitButton title={"Leia mais"} navigate={"/about"} />
         </BoxText>
         <BoxImg>
-          <Image priority src={eu} alt={"eu"} width={300} height={undefined} />
+          <Image priority src={eu} alt={"eu"} width={300} height={240} />
         </BoxImg>
       </BoxContainer>
     </BoxAbout>
