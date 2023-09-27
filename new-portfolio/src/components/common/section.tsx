@@ -27,8 +27,8 @@ export function Section() {
           priority
           src={euBunito}
           alt={"imageDev"}
-          width={280}
-          height={200}
+          width={340}
+          height={undefined}
         />
 
         <StatusBox>
