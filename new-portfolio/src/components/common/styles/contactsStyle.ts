@@ -16,7 +16,7 @@ export const BoxContainer = styled.article`
   justify-content: space-around;
   flex-direction: row;
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex-direction: column;
   }
 `;
@@ -36,7 +36,7 @@ export const BoxText = styled.div`
     text-align: justify;
   }
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     width: 100%;
     margin-top: 3rem;
   }
