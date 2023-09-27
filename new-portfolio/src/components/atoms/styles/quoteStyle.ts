@@ -9,7 +9,7 @@ export const BoxContent = styled.section`
   align-items: center;
  
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     margin-top: 3rem;
   }
 `;
@@ -20,7 +20,7 @@ export const MarksLeft = styled.span`
   top: -25px;
   left: 4px;
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     top: -40px;
     left: 4px;
   }
@@ -40,7 +40,7 @@ export const TextBox = styled.div`
   font-style: italic;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
-  @media (max-width: ${(props) => props.theme.desktopBreakpoint}) {
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     font-size: 12px;
     font-weight: 100;
   }
