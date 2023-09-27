@@ -44,7 +44,7 @@ export const BoxText = styled.div`
 
   @media(max-width: ${(props) => props.theme.tableBreakpoint}) {
     width: 100%; 
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
   }
 `;
 
@@ -52,15 +52,12 @@ export const BoxImg = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30%;
+  width: 50%;
   /* border-bottom: 1px solid var(--primary-color); */
 
   @media(max-width: ${(props) => props.theme.tableBreakpoint}) {
     border-bottom: none;
     align-self: center;
-   /*  width: 200px;
-    height: 200px; */
-    margin-top: 5rem;
-    
+    width: 100%;
   }
 `;
