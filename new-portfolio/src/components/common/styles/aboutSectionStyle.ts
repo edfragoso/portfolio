@@ -12,7 +12,7 @@ export const BoxContainer = styled.article`
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 
   @media(max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex-direction:column-reverse;
