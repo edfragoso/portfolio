@@ -7,7 +7,7 @@ export const ContactsList = styled.div`
   }
 
   i {
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;

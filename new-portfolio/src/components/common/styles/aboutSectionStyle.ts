@@ -16,7 +16,6 @@ export const BoxContainer = styled.article`
 
   @media(max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex-direction:column-reverse;
-    justify-content: center;
   }
 `;
 
