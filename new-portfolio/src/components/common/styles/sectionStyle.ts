@@ -18,7 +18,6 @@ export const LeftBox = styled.article`
   display: flex;
   flex-direction: column;
   width: 50%;
-  
 
   h1 {
     font-size: 30px;
@@ -30,7 +29,6 @@ export const LeftBox = styled.article`
     margin: 0.5rem;
     color: var(--primary-color);
     text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.5);
-   
   }
   p {
     text-align: center;
@@ -96,6 +94,9 @@ export const StatusBox = styled.div`
     display: flex;
     align-items: center;
     width: 100%;
+    color: var(--second-color);
+    border: solid 1px var(--second-color);
+
     p {
       font-size: 12px;
     }
