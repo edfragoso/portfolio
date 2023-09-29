@@ -73,7 +73,7 @@ export const RightBox = styled.article`
 export const StatusBox = styled.div`
   display: flex;
   align-items: center;
-  margin-top: 0;
+  margin-top: -1px;
   gap: 0.3rem;
   font-size: 16px;
   font-weight: 200;
