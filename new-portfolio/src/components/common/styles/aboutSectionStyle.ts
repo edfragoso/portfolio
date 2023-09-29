@@ -5,6 +5,7 @@ export const BoxAbout = styled.section`
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   margin-top: 3rem;
 `;
 
@@ -12,8 +13,8 @@ export const BoxContainer = styled.article`
   display: flex;
   align-items: center;
   flex-direction: row;
-  /* justify-content: space-around; */
-
+  justify-content: center;
+  
   @media(max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex-direction:column-reverse;
   }
@@ -43,7 +44,6 @@ export const BoxText = styled.div`
 
   @media(max-width: ${(props) => props.theme.tableBreakpoint}) {
     width: 100%; 
-    /* margin-top: 8rem; */
   }
 `;
 
@@ -52,7 +52,6 @@ export const BoxImg = styled.div`
   align-items: center;
   justify-content: center;
   width: 50%;
-  /* border-bottom: 1px solid var(--primary-color); */
 
   @media(max-width: ${(props) => props.theme.tableBreakpoint}) {
     border-bottom: none;
