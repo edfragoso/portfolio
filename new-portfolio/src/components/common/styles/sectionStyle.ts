@@ -93,7 +93,7 @@ export const StatusBox = styled.div`
   @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 90%;
     color: var(--second-color);
     border: solid 1px var(--second-color);
 
