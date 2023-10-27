@@ -2,9 +2,9 @@
 import { TitleComp } from "../atoms/TitleComp";
 import { DiscordContact } from "../atoms/discordContact";
 import EmailContact from "../atoms/emailContact";
-import { HorizontalLine } from "../atoms/horizLine";
 import { LinkedInContact } from "../atoms/linkedInContact";
 import WhatsappLink from "../atoms/wattsApp";
+import { ContactForm } from "./contactForm";
 
 import {
   BoxContacts,
@@ -23,7 +23,9 @@ export function Contacts() {
             Estou interessado em oportunidades freelance. No entanto, se você
             tiver outro pedido ou pergunta, não hesite em contactar-me.
           </p>
-          
+          <div>
+            <ContactForm/>
+          </div>
         </BoxText>
         <BoxLinks>
           <DiscordContact personId={"fragoso6125"} />
