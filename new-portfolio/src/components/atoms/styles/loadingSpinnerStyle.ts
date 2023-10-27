@@ -9,11 +9,11 @@ export const LoadingSpinner = styled.div`
 
 export const Spinner = styled.div`
   border: 6px solid rgba(255, 255, 255, 0.3);
-  border-top: 6px solid #007bff; /* Cor do spinner */
+  border-top: 6px solid var(--primary-color); /* Cor do spinner */
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  animation: spin 1s linear infinite;
+  animation: spin 0.7s linear infinite;
   
   @keyframes spin {
     0% {
