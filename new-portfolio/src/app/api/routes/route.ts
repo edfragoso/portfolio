@@ -3,7 +3,7 @@ const nodemailer = require("nodemailer");
 export async function POST(request: Request) {
     const { name, email, title, message } = await request.json();
     const { to, subject, text } = {
-      to: "ednilson.fragoso@hotmail.com", 
+      to: process.env.MAILTO, 
       subject: "Contato via Portfolio ✔",
       text: `Nome: ${name}\nE-mail: ${email}\nAssunto: ${title}\nMensagem: ${message}`,
     };
