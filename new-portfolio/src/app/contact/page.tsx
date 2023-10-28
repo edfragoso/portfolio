@@ -3,6 +3,7 @@ import { SubmitButton } from "@/components/atoms/SubmitButton";
 import { DiscordContact } from "@/components/atoms/discordContact";
 import EmailContact from "@/components/atoms/emailContact";
 import { LinkedInContact } from "@/components/atoms/linkedInContact";
+import { NavigateButton } from "@/components/atoms/navigateButton";
 import WhatsappLink from "@/components/atoms/wattsApp";
 import { BoxLinks } from "@/components/common/styles/contactsStyle";
 import styled from "styled-components";
@@ -25,6 +26,7 @@ export default function Contact() {
       <h1>🚧 - Pagina Contatos - 🚧</h1>
       <h3>🚧 - Em obras - 🚧</h3>
       <SubmitButton title={"voltar"} navigate={"/"} />
+      <NavigateButton title={"voltar"} navigate={"/"} />
       <BoxLinks>
         <DiscordContact personId={"fragoso6125"} />
         <EmailContact />

@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { SubmitButton } from "../atoms/SubmitButton";
 import { TitleComp } from "../atoms/TitleComp";
 import {
   BoxAbout,
@@ -9,6 +8,7 @@ import {
   BoxText,
 } from "./styles/aboutSectionStyle";
 import eu from "../../../public/eu.png";
+import { NavigateButton } from "../atoms/navigateButton";
 
 export function About() {
   return (
@@ -25,7 +25,7 @@ export function About() {
             para construir marcas online e enfrentar desafios.
           </p>
           <p> Vamos tornar suas ideias realidade no mundo digital!</p>
-          <SubmitButton title={"Leia mais"} navigate={"/about"} />
+          <NavigateButton title={"Leia mais"} navigate={"/about"} />
         </BoxText>
         <BoxImg>
           <Image priority src={eu} alt={"eu"} width={300} height={240} />

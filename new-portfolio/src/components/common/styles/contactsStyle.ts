@@ -34,17 +34,16 @@ export const BoxText = styled.div`
     font-size: 18px;
     font-weight: 400;
     text-align: justify;
+    padding: 2rem 0 1rem;
   }
 
   @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     width: 100%;
-    margin-top: 3rem;
   }
 `;
 
 export const BoxLinks = styled.div`
   border: solid 1px var(--second-color);
-  box-shadow: 0px 0px 15px 5px rgba(255, 255, 255, 0.15);
   padding: 1rem;
   display: flex;
   align-items: flex-start;
