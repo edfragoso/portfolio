@@ -2,8 +2,8 @@
 import { TitleComp } from "../atoms/TitleComp";
 import { DiscordContact } from "../atoms/discordContact";
 import EmailContact from "../atoms/emailContact";
+import { GithubContact } from "../atoms/githubContact";
 import { LinkedInContact } from "../atoms/linkedInContact";
-import WhatsappLink from "../atoms/wattsApp";
 import { ContactForm } from "./contactForm";
 
 import {
@@ -30,8 +30,8 @@ export function Contacts() {
         <BoxLinks>
           <DiscordContact personId={"fragoso6125"} />
           <EmailContact />
-          <LinkedInContact profileName={"/in/ednilsonfragoso"} />
-          <WhatsappLink title={"Envie uma mensagem agora"} />
+         <GithubContact profileName={"github"}/>
+          <LinkedInContact profileName={"ednilsonfragoso"} />
         </BoxLinks>
       </BoxContainer>
     </BoxContacts>
