@@ -18,7 +18,7 @@ export default function Project({}) {
     <Temp>
       <h1>🎯 - Pagina Projetos</h1>
       <h3>🚧 - Em obras - 🚧</h3>
-      <SubmitButton title={"voltar"} navigate={"/"}/>
+      <SubmitButton title={"voltar"}/>
     </Temp>
   );
 }
