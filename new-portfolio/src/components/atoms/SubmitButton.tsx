@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 export interface SubmitButtonProps {
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
   title: string;
-  navigate: string;
 }
 
 export const SubmitButton = ({ title, onClick }: SubmitButtonProps) => {
