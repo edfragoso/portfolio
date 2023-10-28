@@ -71,9 +71,6 @@ export const RightBox = styled.article`
 `;
 
 export const BoxSkill = styled.article`
-  display: flex;
-  flex-direction: column;
-  border: solid 0.5px var(--second-color);
   color: var(--second-color);
   text-align: start;
   margin: 0.3rem;
@@ -91,20 +88,15 @@ export const MyFunFacts = styled.article`
   display: flex;
   flex-wrap: wrap;
 
-  /*  p{
-    color: var(--second-color);
-    font-weight: 300;
-    border: solid 1px var(--second-color);
-    margin: 3px;
-    padding: 0.3rem;
-  } */
-
   @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex-grow: 1;
   }
 `;
 
 export const StyleDiv = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   color: var(--second-color);
   font-weight: 300;
   border: solid 1px var(--second-color);
