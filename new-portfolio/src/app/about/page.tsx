@@ -14,9 +14,9 @@ import {
 import {
   BoxSkill,
   Container,
-  LeftBox,
   MyFunFacts,
   RightBox,
+  StyleDiv,
 } from "@/components/common/styles/skillSectionStyle";
 
 export default function About() {
@@ -103,12 +103,12 @@ export default function About() {
 
       <Container>
         <MyFunFacts>
-          <p>paixão por esportes radicais</p>
-          <p>amante da natureza</p>
-          <p>filosofia, artes e culturas</p>
-          <p>música</p>
-          <p>filmes</p>
-          <p>tecnologias</p>
+          <StyleDiv><p>paixão por esportes radicais</p></StyleDiv>
+          <StyleDiv><p>amante da natureza</p></StyleDiv>
+          <StyleDiv><p>filosofia, artes e culturas</p></StyleDiv>
+          <StyleDiv><p>música</p></StyleDiv>
+          <StyleDiv><p>filmes</p></StyleDiv>
+          <StyleDiv><p>tecnologias</p></StyleDiv>          
         </MyFunFacts>
         <LogoIcon />
       </Container>

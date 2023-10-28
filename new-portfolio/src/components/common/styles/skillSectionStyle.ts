@@ -79,7 +79,6 @@ export const BoxSkill = styled.article`
   margin: 0.3rem;
   padding: 0.2rem;
   flex-grow: 1;
-  
 
   @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex: 0 10px 140px;
@@ -92,17 +91,27 @@ export const MyFunFacts = styled.article`
   display: flex;
   flex-wrap: wrap;
 
-  
-  p{
+  /*  p{
     color: var(--second-color);
     font-weight: 300;
     border: solid 1px var(--second-color);
     margin: 3px;
     padding: 0.3rem;
-  }
+  } */
 
-  @media (max-width: ${(props) => props.theme.tableBreakpoint}){
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex-grow: 1;
-    
+  }
+`;
+
+export const StyleDiv = styled.div`
+  color: var(--second-color);
+  font-weight: 300;
+  border: solid 1px var(--second-color);
+  margin: 3px;
+  padding: 0.3rem;
+
+  @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
+    flex-grow: 1;
   }
 `;
