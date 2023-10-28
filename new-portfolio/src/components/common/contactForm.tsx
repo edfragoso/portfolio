@@ -112,7 +112,7 @@ export function ContactForm() {
           required
         />
 
-        <SubmitButton onClick={handleFormSubmit} title={"enviar"} navigate={"/"} />
+        <SubmitButton onClick={handleFormSubmit} title={"enviar"} />
       </Form>
     </BoxContent>
   );

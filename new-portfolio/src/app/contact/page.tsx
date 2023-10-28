@@ -25,7 +25,6 @@ export default function Contact() {
       <p>🎯</p>
       <h1>🚧 - Pagina Contatos - 🚧</h1>
       <h3>🚧 - Em obras - 🚧</h3>
-      <SubmitButton title={"voltar"} navigate={"/"} />
       <NavigateButton title={"voltar"} navigate={"/"} />
       <BoxLinks>
         <DiscordContact personId={"fragoso6125"} />
