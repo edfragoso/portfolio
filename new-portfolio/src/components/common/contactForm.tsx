@@ -111,7 +111,6 @@ export function ContactForm() {
           placeholder="Mensagem"
           required
         />
-
         <SubmitButton onClick={handleFormSubmit} title={"enviar"} />
       </Form>
     </BoxContent>
