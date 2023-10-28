@@ -61,43 +61,33 @@ export default function About() {
       <Container>
         <RightBox>
           <BoxSkill>
-            <StyleDiv>
               <h4>Linguagens</h4>
               <p>javaScript</p>
               <p>typescript</p>
-            </StyleDiv>
           </BoxSkill>
           <BoxSkill>
-            <StyleDiv>
               <h4>Bancos de dados</h4>
               <p>postgreSQL</p>
               <p>mongoDB</p>
-            </StyleDiv>
           </BoxSkill>
           <BoxSkill>
-            <StyleDiv>
               <h4>Outros</h4>
               <p>HTML5</p>
               <p>CSS3</p>
               <p>Styled-components</p>
-            </StyleDiv>
           </BoxSkill>
           <BoxSkill>
-            <StyleDiv>
               <h4>Ferramentas</h4>
               <p>vsCode</p>
               <p>miro</p>
               <p>figma</p>
-            </StyleDiv>
           </BoxSkill>
           <BoxSkill>
-            <StyleDiv>
               <h4>Frameworks</h4>
               <p>React</p>
               <p>Next</p>
               <p>Nest</p>
               <p>express</p>
-            </StyleDiv>
           </BoxSkill>
         </RightBox>
       </Container>
