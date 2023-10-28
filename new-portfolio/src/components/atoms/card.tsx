@@ -1,4 +1,4 @@
-import { SubmitButton } from "./SubmitButton";
+import { NavigateButton } from "./navigateButton";
 import { DescriptionBox, ImgBox, SectionContent, TitleBox } from "./styles/styleCard";
 
 
@@ -10,7 +10,7 @@ export function Card() {
             <ImgBox>imgUrl</ImgBox>
             <TitleBox>title</TitleBox>
             <DescriptionBox>description</DescriptionBox>
-            <SubmitButton title={"Visitar"} navigate={""}/>
+            <NavigateButton title={"Visitar"} navigate={"/projects"}/>
         </SectionContent>
     );
 }

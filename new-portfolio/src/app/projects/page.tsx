@@ -1,5 +1,5 @@
 'use client'
-import { SubmitButton } from "@/components/atoms/SubmitButton";
+import { NavigateButton } from "@/components/atoms/navigateButton";
 import styled from "styled-components";
 
 
@@ -18,7 +18,7 @@ export default function Project({}) {
     <Temp>
       <h1>🎯 - Pagina Projetos</h1>
       <h3>🚧 - Em obras - 🚧</h3>
-      <SubmitButton title={"voltar"}/>
+      <NavigateButton title={"voltar"} navigate={"/"}/>
     </Temp>
   );
 }
