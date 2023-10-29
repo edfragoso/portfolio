@@ -26,7 +26,7 @@ export async function POST(request: Request) {
     });
   
     const userInfo = await transporter.sendMail({
-      from: `"Mensagem recebida... 👻" <${process.env.USERMAIL}>`,
+      from: `"Portfolio edcode... 👻" <${process.env.USERMAIL}>`,
       to: userEmailTo,
       subject,
       text,
