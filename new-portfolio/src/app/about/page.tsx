@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import otherEu from "../../../public/otherEu.png";
-import { LogoIcon } from "@/components/icons/logo";
 import { Footer } from "@/components/common/footer";
 import { TitleComp } from "@/components/atoms/TitleComp";
 import { DefaultPageLayout } from "@/components/common/styles/DefaultPageLayout";
@@ -11,13 +10,8 @@ import {
   BoxImg,
   BoxText,
 } from "@/components/common/styles/aboutSectionStyle";
-import {
-  BoxSkill,
-  Container,
-  MyFunFacts,
-  RightBox,
-  StyleDiv,
-} from "@/components/common/styles/skillSectionStyle";
+import Skills from "@/components/atoms/skills";
+import FunFacts from "@/components/atoms/funFacts";
 
 export default function About() {
   return (
@@ -51,82 +45,19 @@ export default function About() {
               excepcionais.
             </p>
           </BoxText>
+
           <BoxImg>
             <Image priority src={otherEu} alt={"eu"} width={280} height={300} />
           </BoxImg>
         </BoxContainer>
       </BoxAbout>
-      <TitleComp title={"dominios"} markers={"#"} />
 
-      <Container>
-        <RightBox>
-          <BoxSkill>
-            <StyleDiv>
-              <h4>Linguagens</h4>
-              <p>javaScript</p>
-              <p>typescript</p>
-            </StyleDiv>
-          </BoxSkill>
-          <BoxSkill>
-            <StyleDiv>
-              <h4>Bancos de dados</h4>
-              <p>postgreSQL</p>
-              <p>mongoDB</p>
-            </StyleDiv>
-          </BoxSkill>
-          <BoxSkill>
-            <StyleDiv>
-              <h4>Outros</h4>
-              <p>HTML5</p>
-              <p>CSS3</p>
-              <p>Styled-components</p>
-            </StyleDiv>
-          </BoxSkill>
-          <BoxSkill>
-            <StyleDiv>
-              <h4>Ferramentas</h4>
-              <p>vsCode</p>
-              <p>miro</p>
-              <p>figma</p>
-            </StyleDiv>
-          </BoxSkill>
-          <BoxSkill>
-            <StyleDiv>
-              <h4>Frameworks</h4>
-              <p>React</p>
-              <p>Next</p>
-              <p>Nest</p>
-              <p>express</p>
-            </StyleDiv>
-          </BoxSkill>
-        </RightBox>
-      </Container>
+      <TitleComp title={"dominios"} markers={"#"} />
+      <Skills />
 
       <TitleComp title={"curiosidades"} markers={"#"} />
+      <FunFacts />
 
-      <Container>
-        <MyFunFacts>
-          <StyleDiv>
-            <p>paixão por esportes radicais</p>
-          </StyleDiv>
-          <StyleDiv>
-            <p>amante da natureza</p>
-          </StyleDiv>
-          <StyleDiv>
-            <p>filosofia, artes e culturas</p>
-          </StyleDiv>
-          <StyleDiv>
-            <p>música</p>
-          </StyleDiv>
-          <StyleDiv>
-            <p>filmes</p>
-          </StyleDiv>
-          <StyleDiv>
-            <p>tecnologias</p>
-          </StyleDiv>
-        </MyFunFacts>
-        <LogoIcon />
-      </Container>
       <Footer />
     </DefaultPageLayout>
   );
