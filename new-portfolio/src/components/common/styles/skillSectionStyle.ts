@@ -33,7 +33,6 @@ export const LeftBox = styled.article`
     font-size: 18px;
     font-weight: 300;
     padding: 0.2rem;
-    border: 1px solid var(--second-color);
     margin: 0.3rem;
     color: var(--second-color);
   }
