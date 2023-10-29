@@ -51,8 +51,7 @@ export default function About() {
           </BoxImg>
         </BoxContainer>
       </BoxAbout>
-
-      <TitleComp title={"dominios"} markers={"#"} />
+<TitleComp title={"dominios"} markers={"#"} />
       <Skills />
 
       <TitleComp title={"curiosidades"} markers={"#"} />

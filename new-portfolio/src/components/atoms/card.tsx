@@ -10,7 +10,7 @@ export function Card() {
             <ImgBox>imgUrl</ImgBox>
             <TitleBox>title</TitleBox>
             <DescriptionBox>description</DescriptionBox>
-            <NavigateButton title={"Visitar"} navigate={"/projects"}/>
+            <NavigateButton title={"Visitar"} navigate={""}/>
         </SectionContent>
     );
 }

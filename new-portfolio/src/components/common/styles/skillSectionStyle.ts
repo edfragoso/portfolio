@@ -88,6 +88,7 @@ export const MyFunFacts = styled.article`
   display: flex;
   flex-wrap: wrap;
 
+
   @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex-grow: 1;
   }
