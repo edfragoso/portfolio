@@ -14,9 +14,9 @@ import {
 import {
   BoxSkill,
   Container,
-  LeftBox,
   MyFunFacts,
   RightBox,
+  StyleDiv,
 } from "@/components/common/styles/skillSectionStyle";
 
 export default function About() {
@@ -52,13 +52,7 @@ export default function About() {
             </p>
           </BoxText>
           <BoxImg>
-            <Image
-              priority
-              src={otherEu}
-              alt={"eu"}
-              width={280}
-              height={300}
-            />
+            <Image priority src={otherEu} alt={"eu"} width={280} height={300} />
           </BoxImg>
         </BoxContainer>
       </BoxAbout>
@@ -67,34 +61,33 @@ export default function About() {
       <Container>
         <RightBox>
           <BoxSkill>
-            <h4>Linguagens</h4>
-            <p>javaScript</p>
-            <p>typescript</p>
-            <p></p>
+              <h4>Linguagens</h4>
+              <p>javaScript</p>
+              <p>typescript</p>
           </BoxSkill>
           <BoxSkill>
-            <h4>Bancos de dados</h4>
-            <p>postgreSQL</p>
-            <p>mongoDB</p>
+              <h4>Bancos de dados</h4>
+              <p>postgreSQL</p>
+              <p>mongoDB</p>
           </BoxSkill>
           <BoxSkill>
-            <h4>Outros</h4>
-            <p>HTML5</p>
-            <p>CSS3</p>
-            <p>Styled-components</p>
+              <h4>Outros</h4>
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>Styled-components</p>
           </BoxSkill>
           <BoxSkill>
-            <h4>Ferramentas</h4>
-            <p>vsCode</p>
-            <p>miro</p>
-            <p>figma</p>
+              <h4>Ferramentas</h4>
+              <p>vsCode</p>
+              <p>miro</p>
+              <p>figma</p>
           </BoxSkill>
           <BoxSkill>
-            <h4>Frameworks</h4>
-            <p>React</p>
-            <p>Next</p>
-            <p>Nest</p>
-            <p>express</p>
+              <h4>Frameworks</h4>
+              <p>React</p>
+              <p>Next</p>
+              <p>Nest</p>
+              <p>express</p>
           </BoxSkill>
         </RightBox>
       </Container>
@@ -103,12 +96,24 @@ export default function About() {
 
       <Container>
         <MyFunFacts>
-          <p>paixão por esportes radicais</p>
-          <p>amante da natureza</p>
-          <p>filosofia, artes e culturas</p>
-          <p>música</p>
-          <p>filmes</p>
-          <p>tecnologias</p>
+          <StyleDiv>
+            <p>paixão por esportes radicais</p>
+          </StyleDiv>
+          <StyleDiv>
+            <p>amante da natureza</p>
+          </StyleDiv>
+          <StyleDiv>
+            <p>filosofia, artes e culturas</p>
+          </StyleDiv>
+          <StyleDiv>
+            <p>música</p>
+          </StyleDiv>
+          <StyleDiv>
+            <p>filmes</p>
+          </StyleDiv>
+          <StyleDiv>
+            <p>tecnologias</p>
+          </StyleDiv>
         </MyFunFacts>
         <LogoIcon />
       </Container>
