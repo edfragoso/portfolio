@@ -33,7 +33,6 @@ export const LeftBox = styled.article`
     font-size: 18px;
     font-weight: 300;
     padding: 0.2rem;
-    border: 1px solid var(--second-color);
     margin: 0.3rem;
     color: var(--second-color);
   }
@@ -70,15 +69,13 @@ export const RightBox = styled.article`
   }
 `;
 
-export const BoxSkill = styled.article`
-  display: flex;
-  flex-direction: column;
-  border: solid 0.5px var(--second-color);
+export const BoxSkill = styled.div`
   color: var(--second-color);
   text-align: start;
   margin: 0.3rem;
   padding: 0.2rem;
   flex-grow: 1;
+  border: solid 1px var(--second-color);
 
   @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex: 0 10px 140px;
@@ -91,14 +88,6 @@ export const MyFunFacts = styled.article`
   display: flex;
   flex-wrap: wrap;
 
-  
-  /* p{
-    color: var(--second-color);
-    font-weight: 300;
-    border: solid 1px var(--second-color);
-    margin: 3px;
-    padding: 0.3rem;
-  } */
 
   @media (max-width: ${(props) => props.theme.tableBreakpoint}) {
     flex-grow: 1;
@@ -110,8 +99,8 @@ export const StyleDiv = styled.div`
   justify-content: center;
   flex-direction: column;
   color: var(--second-color);
-  font-weight: 300;
   border: solid 1px var(--second-color);
+  font-weight: 300;
   margin: 3px;
   padding: 0.3rem;
 

@@ -2,7 +2,6 @@
 import { TitleComp } from "../atoms/TitleComp";
 import { LogoIcon } from "../icons/logo";
 import {
-/*   BoxContainer, */
   BoxSkill,
   Container,
   LeftBox,
