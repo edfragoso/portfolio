@@ -30,7 +30,7 @@ export async function POST(request: Request) {
       to: userEmailTo,
       subject,
       text,
-      html: `Olá, <b>${name}</b> tudo bem?<br> Espero realmente que sim.<br>Passando pra avisar que recebi sua mensagem, muito me alegra o teu contato.<br>Sobre a mensagem, <b>"${message}"</b> prometo responder o mais breve possível.<br><br>Atenciosamente;<br><b><br>Ednilson Fragoso</br>`
+      html: `Olá, <b>${name}</b> tudo bem?<br> Espero realmente que sim.<br>Passando pra avisar que recebi sua mensagem, muito me alegra o teu contato.<br>Sobre a mensagem, <b>"${title}"</b> prometo responder o mais breve possível.<br><br>Atenciosamente;<br><b><br>Ednilson Fragoso</br>`
     });
 
     //for possibly future use
